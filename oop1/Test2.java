@@ -4,19 +4,6 @@ public class Test2 {
 
 	public static void main(String[] args) {
 
-//		Point point = new Point(-1, 1);
-//		Point[] points = new Point[1];
-//		points[0] = point;
-//		Shape c = new Circle("blue", points, 1);
-//
-//		System.out.println(Arrays.toString(points));
-//
-//		System.out.println(Arrays.toString(c.getPoints()));
-//
-//		c.moveShape(2, 2);
-//
-//		System.out.println(Arrays.toString(c.getPoints()));
-
 		String[] colors = { "Red", "Blue", "Green", "Yellow", "Grey", "Black", "Purple", "Pink", "Brown", "White" };
 		Shape[] shapes = new Shape[10];
 		for (int i = 0; i < shapes.length; i++) {
