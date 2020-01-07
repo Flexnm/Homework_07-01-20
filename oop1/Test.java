@@ -67,9 +67,6 @@ public class Test {
 			y = (int) (Math.random() * 11);
 			pointsR[i] = new Point(x, y);
 			}
-//			pointsR[1] = new Point(x + width, y);
-//			pointsR[2] = new Point(x + width, y + length);
-//			pointsR[3] = new Point(x, y + length);
 			return pointsR;
 		}
 		return null;
