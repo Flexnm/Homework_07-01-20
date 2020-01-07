@@ -47,11 +47,11 @@ public class Test2 {
 			return pointsC;
 		case 2:
 			Point[] pointsT = new Point[3];
-			do {
+			do { // This can go into a maybe infinite loop because its hard for it calculate the exact area.
 				for (int i = 0; i < pointsT.length; i++) {
 					x = (int) (Math.random() * 101);
 					y = (int) (Math.random() * 101);
-					pointsT[i] = new Point(x, y); // A point of the base.
+					pointsT[i] = new Point(x, y); 
 				}
 
 			} while ((side1 * side2
